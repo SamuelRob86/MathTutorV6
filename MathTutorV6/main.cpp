@@ -1,6 +1,6 @@
 /*
  * Program: MathTutorV6
- * Programmer(s): Samuel Robinson, Davy Tran
+ * Programmer(s): Samuel Robinson
  * Date(s): 11/24/2025
  * Github Repository: https://github.com/SamuelRob86/MathTutorV6
  * Description: Math tutor application for children/young adolescence that generates a new problem with random numbers
@@ -56,7 +56,7 @@ int main()
 
     bool isCorrect = false;
     //2D vector for questions
-    vector<vector<int>> questions;
+    vector<vector<int>> allQuestions;
 
     // Header of actual program:
 
@@ -83,7 +83,7 @@ int main()
        }
         cout << endl;
         // records question info for report
-        questions.push_back(currentQuestion);
+        allQuestions.push_back(currentQuestion);
 
         CheckForLevelChange(totalCorrect, totalIncorrect, mathLevel);
 
@@ -93,7 +93,7 @@ int main()
     }
     while (userInput == "yes" || userInput == "y");
 
-    DisplaySummaryReport(questions);
+    DisplaySummaryReport(allQuestions);
 
     cout << endl << "Thanks for playing!" << endl;
     return 0;

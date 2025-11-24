@@ -34,7 +34,7 @@ https://youtu.be/eVGEea7adDM?si=cz1Fbqxr9VgioIEh
 *    | |  | | (_| | |_| | | |   | || |_| | || (_) | |    |_|_|_|    *
 *    |_|  |_|\__,_|\__|_| |_|   |_| \__,_|\__\___/|_|    (_|_|_)    *
 *********************************************************************
-*            Welcome to the Silly Simple Math Tutor V2!             *
+*            Welcome to the Silly Simple Math Tutor V6!             *
 *********************************************************************
 
 Fun Math Facts:
@@ -120,7 +120,7 @@ End of program.
 ## Maintainers
 [@SamuelRob86](https://github.com/SamuelRob86) Samuel Robinson
 
-[@davy-tran](https://github.com/davy-tran) Davy Tran
+[N/A](N/A) N/A
 
 [Back to Top](#math-tutor-v1)
 
